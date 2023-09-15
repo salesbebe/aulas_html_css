@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input radio</title>
+</head>
+<body>
+
+    <!-- input radio  -->
+    <form action=""></form>
+
+    <div>
+        <input type="text" name="nome" placeholder="digite seu Nome aqui:">
+        <label for="nome">Digite seu nome:</label>
+    </div>
+    <div>
+        <input type="e-mail" name="email" placeholder="Digite seu e-mail:">
+        <label for="email">Digite seu email:</label>
+    </div>
+
+    <div>
+        <p>Escolha o time que você torce:</p>
+        <div>
+            <input type="radio" id="nenhum" name=cinemas>
+            <label for="nenhum">Nenhum</label>
+        </div>
+        <div>
+            <input type="radio" id="celtics" name=cinemas>
+            <label for="celtics">Celtics</label>
+        </div>
+        <div>
+            <input type="radio" id="golden state" name=cinemas>
+            <label for="golden state">Golden State Warriors</label>
+        </div>
+        <div>
+            <input type="radio" id="miami heat" name=cinemas>
+            <label for="miami heat">Miami Heat</label>
+        </div>
+    </div>
+    <!-- select -->
+    <div>
+        <label for="estadio">Escolha um estádio:</label>
+        <select name="estadio" id="estadio">
+            <option disabled selected>Selecione...</option>
+            <option value="estadio">Estádio GSW</option>
+            <option value="estadio">Estádio Celtics</option>
+            <option value="estadio">Estádio Miami Heat</option>
+            <option value="estadio">Estadio NBA</option>
+
+        </select>
+    </div>
+
+
+    <button>Enviar</button>
+</body>
+</html>
