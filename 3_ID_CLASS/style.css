@@ -1,26 +1,10 @@
-#titulo-h2{
-    color: blue;
-}
+.caixa_width{
+    /* border-width: 2px; */
+    /* border-style: solid; */
+    /* border-color: #f00; */
 
-.fundo-roxo {
-    background: rgb(175, 134, 95)
-}
+    /* shorthand => vários valores na mesma propriedade */
+    border: 2px solid red;
 
-.texto-rosa {
-    color:deeppink
+    width: 200px;
 }
-
-h2 {
-    color: darkviolet;
-}
-
-p {
-    color: darkorchid;
-}
-
-h2 {
-    color: brown
-}
-
-/*cascata*/
-/*especificações*/
